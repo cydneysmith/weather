@@ -1,3 +1,4 @@
+
 # DON'T CHANGE THIS CODE
 # ----------------------
 require "net/http"
@@ -54,14 +55,6 @@ for forecast in forecast_data
     forecast_conditions = forecast["comment"]
    puts "#{forecast_day}: a high of #{forecast_high} and #{forecast_conditions}"
 end
-
-
-
-# The upcomming weather forecast is:
-# Wednesday: a high of 65 and scattered showers.
-# Thursday: a high of 67 and partly cloudy.
-# Friday: a high of 59 and rain.
-# Saturday: a high of 77 and cloudy.
 
 
 
